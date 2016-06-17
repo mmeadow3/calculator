@@ -1,10 +1,17 @@
 .button{
 	min-width: 100px;
-	margin: auto auto;
+	display: inline-block;
 }
 #output{
 	font-family: Helvetica;
 	border: 2px solid black;
 	text-align: center;
 	font-size: 1.5em;
+}
+.center-block{
+	text-align: center;
+}
+#firstNum, #secondNum{
+	border: 1px solid blue;
+	border-radius: 5px;
 }

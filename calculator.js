@@ -47,7 +47,7 @@ var subButton = document.getElementById("subtract").addEventListener("click", fu
 var divideButton = document.getElementById("divide").addEventListener("click", function (event) {
   var x = parseInt(document.getElementById("firstNum").value);
   var y = parseInt(document.getElementById("secondNum").value);
-  var result = (doMath(x, y, divide)); ///// remove parseInt, we want it to show decimals////////////
+  var result = (doMath(x, y, divide)).toFixed(2); ///// remove parseInt, we want it to show decimals////////////added to fixed to limit amount of decimal places
   output.innerHTML = result
 });
 

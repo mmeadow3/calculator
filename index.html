@@ -4,25 +4,26 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Calculator</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="calc.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
-	<div>
+  <div class="center-block">
   First Number:<br>
   <input type="number" name="firstNum" id="firstNum"><br>
   Second Number:<br>
   <input type="number" name="secondNum" id="secondNum"><br>
- 
-<button id="multiply">Multiply</button><br>
-<button id="addBtn">Add</button><br>
-<button id="subtract">Subtract</button><br>
-<button id="divide">Divide</button><br>
 
+<button id="multiply" class="btn btn-primary button">Multiply</button><br>
+<button id="addBtn" class="btn btn-success button">Add</button><br>
+<button id="subtract" class="btn btn-warning button">Subtract</button><br>
+<button id="divide" class="btn btn-danger button">Divide</button><br>
+<div id="output"></div>
 
-
-	</div>
-	<div id="output"></div>
+</div> 
 	<script src="calculator.js"></script>
+	
 </body>
 
 </html>
